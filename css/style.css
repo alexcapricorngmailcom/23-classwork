@@ -1,0 +1,73 @@
+table, thead, tbody, tfoot, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
+  font-weight: inherit;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+
+*, *:before, *:after, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, option, textarea {
+  border-radius: 0;
+  box-shadow: none !important;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a, button, select {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus {
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  margin-top: 5px;
+}
+.user-list-item {
+  width: 20%;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-name {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
